@@ -32,6 +32,9 @@ inputs:
     description: 'The email to use for the committer of the commit.'
     required: false
   git_force:
+  - name: Deploy to GitHub Pages
+  uses: JamesIves/github-pages-deploy-action@v4.4.0
+
     description: 'Whether to use the --force flag on git push.'
     default: 'true'
     required: false
